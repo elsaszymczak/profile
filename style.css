@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #ffffff 0%, #ffff99 100%);
+  background-color: #EBEBEB;
   font-family: Open Sans;
   color: #918f8f;
   font-size: 18px;
@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-/*  color: #DB5658;
-*/  font-family: Montserrat;
+  color: #DB5658;
+  font-family: Montserrat;
   font-size: 20px;
   line-height: 1.6;
 
@@ -29,7 +29,7 @@ a {
 }
 
 a:hover, i:hover {
-  color: rgb(0, 0, 0);
+  color: #DB5658;
 }
 
 .container {
@@ -43,7 +43,7 @@ a:hover, i:hover {
   padding: 30px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 450px;
+  width: 400px;
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -87,30 +87,3 @@ table {
     width: 300px;
   }
 }
-
-.list-inline {
-  padding-left: 0px;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.img-circle {
-  border-radius: 50%;
-}
-
-.black {
-  color: rgb(0, 0, 0)
-}
-
-
-
-
-
-
-
-
-
-
